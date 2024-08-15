@@ -1,0 +1,13 @@
+// app global css in SCSS form
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.caption {
+  color: $grey-7;
+  font-size: 14px;
+}
+
+.card-bordered {
+  @apply border border-solid border-black/[0.12] rounded-md shadow-md
+}
